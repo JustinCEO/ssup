@@ -18,7 +18,6 @@
 
 ## Prerequisites
 
-- pngpaste (https://github.com/jcsalterego/pngpaste)
+- [pngpaste](https://github.com/jcsalterego/pngpaste)
 
-- curl
-
+- [curl](https://curl.haxx.se/)
