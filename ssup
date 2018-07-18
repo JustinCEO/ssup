@@ -13,19 +13,19 @@ URL="http://www.your.server.com/img/$IMAGE_NAME.png"
 
 # Make sure a file with this name doesn't already exist.
 # Shouldn't happen with the length of random name we're using.
-if curl --head $URL | head -1 | grep "200 OK" >/dev/null; then
+if curl --head "$URL" | head -1 | grep "200 OK" >/dev/null; then
   exit 1
 fi
 
-FILE_TO_UPLOAD=/tmp/$IMAGE_NAME.png
+FILE_TO_UPLOAD="/tmp/${IMAGE_NAME}.png"
 
 # Copy image from clipboard to temp directory.
-pngpaste $FILE_TO_UPLOAD
+pngpaste "$FILE_TO_UPLOAD"
 
 ## CHANGE THE LINE BELOW to use the upload command of your choice.
-scp $FILE_TO_UPLOAD your.server.com:/www/img/
+scp "$FILE_TO_UPLOAD" your.server.com:/www/img/
 
 # Copy URL to clipboard.
-echo $URL | pbcopy
+echo "$URL" | pbcopy
 
 say "image uploaded"
