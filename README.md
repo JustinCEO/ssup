@@ -2,9 +2,8 @@
 
 ## Initial configuration
 
-Edit two lines in ssup to configure the upload command and the URL.  (This
-is only necessary before the first time you use it, or when the upload or
-URL info changes.)
+Before you use ssup for the first time, edit two lines in ssup to configure the
+upload command and the URL.
 
 ## Directions
 
