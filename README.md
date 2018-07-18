@@ -1,13 +1,15 @@
-# ssup - upload screenshot
+# ssup - upload screenshot (MacOS)
 
-## Directions (MacOS)
+## Initial configuration
 
-1. Edit two lines in ssup to configure the upload command and the URL.  (This
-   is only necessary before the first time you use it, or when the upload or
-   URL info changes.)
+Edit two lines in ssup to configure the upload command and the URL.  (This
+is only necessary before the first time you use it, or when the upload or
+URL info changes.)
 
-2. Take a screenshot with command+control+shift+4,so the screenshot is in the
-   clipboard
+## Directions
+
+1. Take a screenshot with command+control+shift+4, so the screenshot is in the
+   clipboard.
 
 2. Run ssup to upload the image in the clipboard.
 
