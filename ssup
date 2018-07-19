@@ -26,6 +26,6 @@ pngpaste "$FILE_TO_UPLOAD"
 scp "$FILE_TO_UPLOAD" your.server.com:/www/img/
 
 # Copy URL to clipboard.
-echo "$URL" | pbcopy
+echo -n "$URL" | pbcopy
 
 say "image uploaded"
