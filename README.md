@@ -27,7 +27,7 @@ You can also change this variable if you need to:
 
 SSH_KEY_PATH
 
-And you can change FORMAT to your preference of image format. I've set it to jpg because png was buggy.
+And you can change FORMAT to your preference of image format. I've set it to jpg by default because png was buggy.
 
 ## Directions
 
