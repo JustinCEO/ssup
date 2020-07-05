@@ -16,11 +16,12 @@ I just added some tweaks to get it working on my system, clean things up a bit a
 
 Before you use ssup for the first time, fill in the info in ssup to configure the
 upload command and the URL. You want to set the correct info for the following variables:
-SSH_USER
-SERVER_IP
-SERVER_PORT_NUMBER
-URL
-FINAL_PATH
+
+- SSH_USER
+- SERVER_IP
+- SERVER_PORT_NUMBER
+- URL
+- FINAL_PATH
 
 You can also change this variable if you need to:
 
