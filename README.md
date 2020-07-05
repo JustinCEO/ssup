@@ -8,7 +8,7 @@ It assumes you have an SSH key set up for logging into your web server.
 
 ## Credit
 
-The initial version of this software was made by Josh Jordan. Elliot Temple improved it as you can see [here](https://groups.google.com/d/msg/fallible-ideas/ub77-mJZTjA/8tlc0qa9BAAJ), including the addition of the ruby complementary ruby script. These two guys solved the hard parts. I have made changes to get things working on my system, clean up the code some, and reorganize the program according to my own preferences.
+The initial version of this software was made by [Josh Jordan](https://github.com/jordancurve). Then [Elliot Temple](https://github.com/curi) improved it as you can see [here](https://groups.google.com/d/msg/fallible-ideas/ub77-mJZTjA/8tlc0qa9BAAJ), including the addition of the ruby complementary ruby script. These two guys solved the hard parts. I have made changes to get things working on my system, clean up the code some, and reorganize the program according to my own preferences.
 
 ## Initial configuration
 
