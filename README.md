@@ -41,7 +41,7 @@ And you can change FORMAT to your preference of image format. I've set it to jpg
 
 ## Use
 
-You'll need to set up a shortcut key to run this script to get the full benefit. You can try stuff like Automator, Keyboard Maestro, or the ActionShortcuts app https://hazeover.com/actionshortcuts.html
+You'll need to set up a shortcut key to run this script to get the full benefit. You can try stuff like Automator, Keyboard Maestro, or the [ActionShortcuts app](https://hazeover.com/actionshortcuts.html).
 
 ## Prerequisites
 
